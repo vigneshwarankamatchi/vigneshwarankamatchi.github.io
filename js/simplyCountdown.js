@@ -5,7 +5,7 @@
  * License : MIT
  * Version : 1.3.2
  * Author : Vincent Loy <vincent.loy1@gmail.com>
- * Contributors :
+ * Contributors : 
  *  - Justin Beasley <JustinB@harvest.org>
  *  - Nathan Smith <NathanS@harvest.org>
  */
@@ -186,9 +186,6 @@
                     secondWord;
 
                 now = new Date();
-				date_started = new Date('March 23, 2020 00:00:00').getTime();
-                date_now = new Date().getTime();
-                one_day=1000*60*60*24;
                 if (parameters.enableUtc) {
                     nowUtc = new Date(now.getFullYear(), now.getMonth(), now.getDate(),
                         now.getHours(), now.getMinutes(), now.getSeconds());
