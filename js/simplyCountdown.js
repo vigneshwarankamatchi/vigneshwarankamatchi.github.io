@@ -186,6 +186,9 @@
                     secondWord;
 
                 now = new Date();
+				date_started = new Date('March 23, 2020 00:00:00').getTime();
+                date_now = new Date().getTime();
+                one_day=1000*60*60*24;
                 if (parameters.enableUtc) {
                     nowUtc = new Date(now.getFullYear(), now.getMonth(), now.getDate(),
                         now.getHours(), now.getMinutes(), now.getSeconds());
