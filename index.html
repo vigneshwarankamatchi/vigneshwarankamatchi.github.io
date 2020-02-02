@@ -278,9 +278,9 @@ Calicut</p>
 
 		// default example
 		simplyCountdown('.simply-countdown-one', {
-			year: 2020,
-			month: 3,
-			day: 22
+			year: d.getFullYear(),
+			month: d.getMonth() + 1,
+			day: d.getDate()
 		});
 
 		//jQuery example
@@ -288,7 +288,7 @@ Calicut</p>
 			year: 2020,
 			month: 3,
 			day: 22,
-			enableUtc: false
+			enableUtc: true
 		});
 	</script>
 
